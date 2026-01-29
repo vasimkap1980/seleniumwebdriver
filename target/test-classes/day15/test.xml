@@ -1,0 +1,25 @@
+
+
+<suite name="groupingsuite">
+  <test name="groupingtest">
+  	<groups>
+  	<run>
+  		<include name="ui"/>
+  		<include name="sanity"/>
+  		<!--exclude name="sanity"/-->
+  	</run>
+  	</groups>
+  
+	<classes>
+	<class name="day15.LoginTest"/>
+	<class name= "day15.SignupTest"/>
+	<class name="day15.Payments"/>
+	</classes>
+
+  </test>
+
+
+</suite>
+
+
+
