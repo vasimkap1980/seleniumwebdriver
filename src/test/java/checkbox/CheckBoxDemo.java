@@ -35,6 +35,7 @@ public class CheckBoxDemo {
 		{
 			check.click();
 		}
+        driver.quit();
 	}
 
 }
